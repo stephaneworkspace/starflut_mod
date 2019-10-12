@@ -13,10 +13,10 @@ bridge for flutter interact with other programming languages, such as c/c++ lua,
   s.author           = { 'srplab' => 'srplab.cn@hotmail.com' }
   s.source           = { :git => 'https://github.com/stephaneworkspace/starflut_mod.git' }
 
-  s.source_files = 'Classes/**/*{m,mm,a}' # 'Classes/**/*.{m,mm}'
+  s.source_files = 'Classes/**/*{m,mm,a,h}' # 'Classes/**/*.{m,mm}'
 
   s.public_header_files = 'Classes/**/*.{h}'
-  #s.header_mappings_dir = './Classes'
+  s.header_mappings_dir = './Classes'
 
   s.dependency 'Flutter'
 
