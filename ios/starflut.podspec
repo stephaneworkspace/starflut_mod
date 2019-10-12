@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'starflut'
-  s.version          = '0.6.2'
+  s.version          = '0.6.3'
   s.summary          = 'bridge for flutter interact with other programming languages'
   s.description      = <<-DESC
 bridge for flutter interact with other programming languages, such as c/c++ lua, python, ruby, golang, rust, etc.
@@ -17,7 +17,7 @@ bridge for flutter interact with other programming languages, such as c/c++ lua,
 
   s.public_header_files = 'Classes/**/*.{h}'
   # s.header_mappings_dir = './Classes'
-  s.resources = ['Classes/**/*.h']
+  s.resources = ['Classes/StarflutPlugin.h']
 
   s.dependency 'Flutter'
 
