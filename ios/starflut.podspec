@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 bridge for flutter interact with other programming languages, such as c/c++ lua, python, ruby, golang, rust, etc.
                        DESC
   s.homepage         = 'http://www.srplab.com'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = { :file => 'LICENSE' }
   s.author           = { 'srplab' => 'srplab.cn@hotmail.com' }
   s.source           = { :git => 'https://github.com/stephaneworkspace/starflut_mod.git' }
 
